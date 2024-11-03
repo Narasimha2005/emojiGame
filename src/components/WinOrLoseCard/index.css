@@ -1,0 +1,62 @@
+.* {
+  font-family: 'Roboto';
+}
+.win-or-lose-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff33;
+  padding: 30px;
+  border-radius:10px;
+}
+.win-or-lose-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.win-or-lose-heading {
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  margin: 0px;
+}
+.sub-heading {
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+.win-or-lose-score {
+  text-align: center;
+  color: #6a59ff;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+}
+.win-or-lose-image {
+  margin-left: 20px;
+  width: 250px;
+}
+.win-or-lose-button {
+  margin-top: 10px;
+  background-color: #ffce27;
+  border: solid 0px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .win-or-lose-image {
+    width: 150px;
+  }
+  .win-or-lose-container{
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .win-or-lose-heading{
+    font-size:32px;
+  }
+}
